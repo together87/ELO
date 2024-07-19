@@ -15,8 +15,9 @@ export default function Contract() {
   const { contractName, networks, abi } = contractInfo;
   const [ isEth, setIsEth ] = useState(true);
 
-  const erc20ContractAddress = '0x208b32875Cdc286C1A13C165937E9A0b7Cb9f694';
-  const trc20ContractAddress = 'TW5VXXqZkZG4w7ovPhfKvhLJVk87Jec25Y';
+  const erc20ContractAddress = '0xCC5a145F1BB4c79c9572962c556F71e2C061CE0C';
+  const trc20ContractAddress = 'TQgAigwK4zRVbr3FHgxEvDf2KbEWpYaJ4i';
+  const bep20ContractAddress = '0xe7DF41834F8d3c2B78986B1334d1AB47195445C6';
 
   useEffect(() => console.log("contractInfo", contractInfo), [contractInfo]);
 
